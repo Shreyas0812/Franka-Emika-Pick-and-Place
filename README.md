@@ -36,7 +36,7 @@ lib/                  Kinematics, planning, and perception library
 hardware_tested/      Versions validated on the physical robot
 old_files/            Development history / earlier iterations
 SUBMIT/               Final graded submission (Team17.zip)
-images/               Result photos and demo videos
+images/               Result photos (RViz, simulation, and final hardware stack)
 MEAM5200_Final_Project_Report.pdf            Team report
 MEAM5200_Final_Project___Individual_Report.pdf   Individual report
 MEAM5200_FinalProject.pptx                   Presentation
@@ -58,7 +58,7 @@ The script moves to a start configuration, waits for ENTER, then executes the st
 
 ## Results
 
-The system successfully stacked blocks from both the static table and the dynamic turntable in simulation and on hardware. See `images/` for demo videos (`full_stack_video.mp4`, `simulation_dynamic_stack.mp4`) and result photos.
+The system successfully stacked blocks from both the static table and the dynamic turntable, in simulation and on real hardware. The `images/` folder holds result photos: the final competition stack (`competition_stack.jpg`), the target stack (`ideal_stack.png`), RViz views (`r_viz1.jpg`, `r_viz2.jpg`), and top-down simulation captures (`simulation_view_above_static.png`, `simultion_view_above_dynamic.png`). Full demo videos were recorded but are kept out of the repository because of GitHub's 100 MB file-size limit.
 
 ## Dependencies
 
