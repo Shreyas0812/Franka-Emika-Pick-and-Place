@@ -4,7 +4,9 @@
 
 Autonomous pick-and-place and block-stacking with a 7-DOF **Franka Emika Panda** arm. The robot detects, grasps, transports, and stacks blocks from both a **static** table and a **dynamic** rotating turntable, first validated in simulation (Gazebo/RViz) and then deployed on real hardware in a timed red-vs-blue competition.
 
-![Competition stack](images/competition_stack.jpg)
+<p align="center">
+  <img src="images/competition_stack.jpg" alt="Competition stack" width="480">
+</p>
 
 ## Overview
 
@@ -60,4 +62,4 @@ The system successfully stacked blocks from both the static table and the dynami
 
 ## Dependencies
 
-Python 3.8, NumPy, ROS (course-provided `core` package with `ArmController` and `ObjectDetector`).
+Python 3.8, NumPy, ROS (course-provid
