@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.pyc
+
+# Large media (host externally, link in README)
+*.mp4
